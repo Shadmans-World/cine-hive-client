@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+svg.star-svg {
+    display: inline;
+    }
+/* Default Light Theme */
+body {
+    background-color: white;
+    color: black;
+  }
+  
+  button.theme-toggle-btn {
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+  
+  button.theme-toggle-btn:hover {
+    background-color: #333;
+  }
+  
+  /* Dark Theme Styles */
+  body.dark {
+    background-color: #333;
+    color: black;
+  }
+  
+  button.theme-toggle-btn.dark {
+    background-color: white;
+    color: black;
+  }
+  
+  button.theme-toggle-btn.dark:hover {
+    background-color: #ddd;
+  }
+  
+  
