@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white px-16 py-8 mt-20">
+    <footer className="bg-gray-900 text-white px-16 py-8 mt-5 mx-5">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4">
         {/* CineHive Info */}
         <div className="text-center sm:text-left">
-          <h2 className="text-lg font-bold">CineHive</h2>
+        <a className="md:ml-2 lg:ml-0 text-3xl font-bold ">CINE <span className="text-xl font-bold bg-gradient-to-r from-green-600 to-red-500 bg-clip-text text-transparent">HIVE</span></a>
           <p className="mt-2 text-gray-400">
             Discover, explore, and manage your favorite movies in one place.
           </p>

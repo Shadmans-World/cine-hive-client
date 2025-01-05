@@ -32,7 +32,7 @@ const MovieSlider = () => {
   };
 
   return (
-    <div className="slider-container">
+    <div className=" w-full px-5">
       <Slider {...settings}>
         <div className="movie-card">
           <img src="/Images/chat endgame.webp" alt="Avengers: Endgame" />

@@ -53,9 +53,9 @@ const router = createBrowserRouter([
       {
         path: '/details/:id',
         element: (
-          <PrivateRoute>
+         
             <MovieDetails />
-          </PrivateRoute>
+          
         ),
         loader: ({ params }) => fetch(`https://cine-hive-server.vercel.app/movies/${params.id}`),
       },

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Movies = ({ movie }) => {
   return (
-    <div className="card card-side bg-base-100 shadow-xl h-full">
+    <div className="card card-side bg-base-100 shadow-xl h-[350px] w-[300px]">
       {/* Image Section */}
       <figure className="h-full w-1/2">
         <img
@@ -16,23 +16,25 @@ const Movies = ({ movie }) => {
       {/* Content Section */}
       <div className="card-body w-1/2 flex flex-col justify-between">
         {/* Title Section */}
-        <h2 className="card-title">{movie.title}</h2>
-
-        {/* Genre Section */}
+        <h2 className="card-title"> {movie.title.split(" ").slice(0, 3).join(" ")}...</h2>
+        <p className="text-gray-700 leading-relaxed">
+          {movie.summary.split(" ").slice(0, 5).join(" ")}...
+        </p>
+        {/* Genre Section
         <div className="flex flex-col gap-2">
           {movie.genre.map((genre, idx) => (
             <span key={idx} className="badge badge-outline">
               {genre}
             </span>
           ))}
-        </div>
+        </div> */}
 
-        {/* Details Section */}
+        {/* Details Section
         <div className="text-gray-500 space-y-2 text-sm">
           <p>Duration: {movie.duration} minutes</p>
           <p>Release Year: {movie.releaseYear}</p>
           <p>Rating: {movie.rating}/5</p>
-        </div>
+        </div> */}
 
         {/* Action Section */}
         <div className="card-actions justify-end">

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Banner from '../components/Banner';
 import UpcomingReleases from '../components/upcomingReleases ';
 import StreamingPlatformGuide from '../components/StreamingPlatformGuide ';
+import BlogSection from '../components/BlogSection';
 
 const Home = () => {
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -39,9 +40,10 @@ const Home = () => {
       <Banner />
       <UpcomingReleases></UpcomingReleases>
       <StreamingPlatformGuide/>
+      <BlogSection/>
       <button 
         onClick={toggleTheme} 
-        className={`theme-toggle-btn ${isDarkMode ? 'dark' : ''}`}
+        className={`ml-5 theme-toggle-btn ${isDarkMode ? 'dark' : ''}`}
       >
         {isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
       </button>
