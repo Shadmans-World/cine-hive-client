@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white px-16 py-8 mt-5 mx-5">
+    <footer className="bg-gray-900 text-white px-16 py-8 mt-5 ">
       <div className="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-4">
         {/* CineHive Info */}
         <div className="text-center sm:text-left">
