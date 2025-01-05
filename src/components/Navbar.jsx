@@ -69,7 +69,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div>
-            <img src="/watching-a-movie.png" alt="logo" className="w-10 md:hidden ml-2"/>
+            <img src="/watching-a-movie.png" alt="logo" className="w-10 md:hidden md:ml-2"/>
           <a className="md:ml-2 lg:ml-0 text-3xl font-bold  hidden md:block ">CINE <span className="text-xl font-bold bg-gradient-to-r from-green-600 to-red-500 bg-clip-text text-transparent">HIVE</span></a>
           </div>
         </div>
