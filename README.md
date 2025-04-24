@@ -1,4 +1,4 @@
-# **🌟 CineVibe 🎬**  
+# **🌟 CineHive 🎬**  
 Welcome to **CineVibe** – the ultimate spot for movie lovers! Discover your next favorite film, add movies to your collection, keep track of your favorites, and explore upcoming releases.  
 
 🔗 **Live Website**: [https://cinevibe-216d1.web.app/](https://cinevibe-216d1.web.app/)  
